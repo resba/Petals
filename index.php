@@ -6,6 +6,7 @@ if (isset($_GET['roll'])) {
 	$dice3 = rand(1,6);
 	$dice4 = rand(1,6);
 	$dice5 = rand(1,6);
+	$dice6 = rand(1,6);
 	}
 }
 ?>
