@@ -34,7 +34,7 @@ function MM_effectAppearFade(targetElement, duration, from, to, toggle)
 <p>Special Thanks:</p>
 <p>-Brad Fellmeth</p>
 <p>-Aj Renner</p>
-<p>&copy; <?php echo date(Y); ?></p>
+<p>&copy; <?php echo date('Y'); ?></p>
 <p>&nbsp;</p>
 <p><a href="#" onclick="MM_effectAppearFade('credits', 1000, 100, 0, false);MM_effectAppearFade('wrapper', 1000, 0, 100, false)">Close Ze Window</a></p>
 </div>
