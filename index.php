@@ -36,7 +36,7 @@ function MM_effectAppearFade(targetElement, duration, from, to, toggle)
 <p>-Aj Renner</p>
 <p>&copy; <?php echo date('Y'); ?></p>
 <p>&nbsp;</p>
-<p><a href="#close" onclick="MM_effectAppearFade('credits', 1000, 100, 0, false);MM_effectAppearFade('wrapper', 1000, 0, 100, false)">Close Ze Window</a></p>
+<p><a href="#close" onclick="MM_effectAppearFade('credits', 1000, 100, 0, false);MM_effectAppearFade('wrapper', 1000, 0, 100, false)">Close the Window</a></p>
 </div>
 <div id="wrapper">
   <h1>petals around the rose</h1>
@@ -147,7 +147,7 @@ $answer=$add1+$add2+$add3+$add4+$add5+$add6;
       <p>the correct answer is: <span id="fadeans"><?php echo $_POST['ans']; ?></span></p>
       <p><?php if($_POST['number']==$_POST['ans']){ ?>congratulations! you guessed correctly!<?php }else{ ?>sorry, you guessed incorrectly.<?php } ?>
       <?php } } ?>
- <!-- <span class="smallcenter"><a href="#" onclick="MM_effectAppearFade('credits', 1000, 0, 100, false);MM_effectAppearFade('wrapper', 1000, 100, 0, false)">Credits</a></span> --!>
+  <span class="smallcenter"><a href="#open" onclick="MM_effectAppearFade('credits', 1000, 0, 100, false);MM_effectAppearFade('wrapper', 1000, 100, 0, false)">Credits</a></span>
 </div>
 </body>
 </html>
